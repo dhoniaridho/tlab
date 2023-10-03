@@ -13,6 +13,17 @@ If you are developing a production application, we recommend updating the config
 
 - Configure the top-level `parserOptions` property like this:
 
+## how to run
+```bash
+pnpm install
+pnpm dev
+```
+## how to build into production
+```bash
+pnpm install
+pnpm build
+```
+
 ```js
    parserOptions: {
     ecmaVersion: 'latest',
